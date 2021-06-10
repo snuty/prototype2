@@ -9,36 +9,59 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
+  
+  jQuery(document).ready(function($){
+
+$('.grijs').on({
+'click': function(){
+$('#change-image').attr('src','wiel2.png');
+}
+});
+
+$('.paars').on({
+'click': function(){
+$('#change-image').attr('src','wiel21.png');
+}
+});
+
+$('.groen').on({
+'click': function(){
+$('#change-image').attr('src','wiel22.png');
+}
+});
+
+$('.oranje').on({
+'click': function(){
+$('#change-image').attr('src','wiel23.png');
+}
+});
+
   $( function() {
-    $( "#wiel1" ).draggable();
+    $( "#change-image" ).draggable();
   } );
-  $( function() {
-    $( "#bovenkant" ).draggable();
-  } );
-  $( function() {
-    $( "#raamlinks" ).draggable();
-  } );
-  $( function() {
-    $( "#raamrechts" ).draggable();
-  } );
-  $( function() {
-    $( "#voorkant" ).draggable();
-  } );
-  $( function() {
-    $( "#koplamp1" ).draggable();
-  } );
-  $( function() {
-    $( "#koplamp2" ).draggable();
-  } );
-  $( function() {
-    $( "#zijkant" ).draggable();
-  } );
+
   $( function() {
     $( "#wiel2" ).draggable();
   } );
+
+  $( function() {
+    $( "#wiel21" ).draggable();
+  } );
+
+  $( function() {
+    $( "#wiel22" ).draggable();
+  } );
+
+  $( function() {
+    $( "#wiel23" ).draggable();
+  } );
+
   $( function() {
     $( "#wiel3" ).draggable();
   } );
+  
+});
+
   </script>
 </head>
 <body>
@@ -46,49 +69,46 @@
 <div id="scherm1">
 </div>
 
-<div id="scherm2">
-</div>
-
-<div id="wiel1">
-  <img src="wiel1.png" class="responsive">
-</div>
-
-<div id="bovenkant">
-  <img src="bovenkant.png" class="responsive">
-</div>
-
-<div id="raamlinks">
-  <img src="raamlinks.png" class="responsive">
-</div>
-
-<div id="raamrechts">
-  <img src="raamrechts.png" class="responsive">
-</div>
-
-<div id="voorkant">
-  <img src="voorkant.png" class="responsive">
-</div>
-
-<div id="koplamp1">
-  <img src="koplamp1.png" class="responsive">
-</div>
-
-<div id="koplamp2">
-  <img src="koplamp2.png" class="responsive">
+<div id="button-container"><br>
+  <b>Hoe werkt dit prototype?</b><br>
+  Stap 1: Klik op een kleur en sleep het wiel op de juiste plek<br>
+  Stap 2: Sleep het tweede wiel op de juiste plek<br>
+  <b>Welke manier vind je het fijnst?</b><br><br>
+  <button class="grijs"></button>
+  <button class="paars"></button>
+  <button class="groen"></button>
+  <button class="oranje"></button>
   </div>
 
-<div id="zijkant">
-  <img src="zijkant.png" class="responsive">
+<div id="scherm2">
+  <div id="autovoorbeeld">
+    <img src="autovoorbeeld.png" class="responsive">
 </div>
+</div>
+
+<img id="change-image" src="wiel2.png" alt="Black Image" />
 
 <div id="wiel2">
   <img src="wiel2.png" class="responsive">
 </div>
 
+<div id="wiel21">
+  <img src="wiel21.png" class="responsive">
+</div>
+
+<div id="wiel22">
+  <img src="wiel22.png" class="responsive">
+</div>
+
+<div id="wiel23">
+  <img src="wiel23.png" class="responsive">
+</div>
+
+
 <div id="wiel3">
   <img src="wiel3.png" class="responsive">
 </div>
- 
+
 <script type="text/javascript" src="js/jquery-ui-touch-punch.js"></script>
 </body>
 </html>
