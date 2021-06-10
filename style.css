@@ -11,11 +11,6 @@
     border-radius: 50px 0px 00px 0px;
     background-color: #ee7a34;
     color: rgb(0, 0, 0);
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
-
   }
   
 #scherm2 {
@@ -26,11 +21,6 @@
   top: 25px;
     border-radius: 00px 0px 50px 0px;
     background-color:#5fa8ad;
-    color: rgb(255, 0, 0);
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
   
 }
 
@@ -38,22 +28,14 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size:14px;
   position: absolute;
-  height:64%;
-  width:33%;
   left: 50px;
   top: 50px;
-    border-radius: 00px 0px 50px 0px;
     background-color: transparent;
     color: rgb(0, 0, 0);
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
 }
 
 .grijs {
-  background-color: #b1aab0; /* Green */
-  border: none;
+  background-color: #b1aab0;
   border: none;
   padding: 15px;
   font-size: 16px;
@@ -61,8 +43,7 @@
   border-radius: 15px;
 }
 .paars {
-  background-color: #ca6aaa; /* Green */
-  border: none;
+  background-color: #ca6aaa; 
   border: none;
   padding: 15px;
   font-size: 16px;
@@ -71,7 +52,7 @@
 }
 
 .groen {
-  background-color: #7fcaa1; /* Green */
+  background-color: #7fcaa1;
   border: none;
   padding: 15px;
   font-size: 16px;
@@ -79,9 +60,8 @@
   border-radius: 15px;
 }
 
-.oranje {
-  background-color: #eff559; /* Green */
-  border: none;
+.geel {
+  background-color: #eff559;
   border: none;
   padding: 15px;
   font-size: 16px;
@@ -96,11 +76,6 @@
     left: -60px;
     top: -80px;
     background-color:transparent;
-    color: black;
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
   }
   #change-image {
     height:100%;
@@ -108,25 +83,13 @@
     left: 45px;
     top: 193px;
     background-color: transparent;
-    color: black;
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
   }
-
-
   #wiel2 {
     height:100%;
     width:6%;
     left: 45px;
     top: 200px;
     background-color: transparent;
-    color: black;
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
   }
 
   #wiel21 {
@@ -135,11 +98,6 @@
     left: 130px;
     top: 129px;
     background-color: transparent;
-    color: black;
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
   }
 
   #wiel22 {
@@ -148,11 +106,6 @@
     left: 215px;
     top: 57px;
     background-color: transparent;
-    color: black;
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
   }
 
   #wiel23 {
@@ -161,11 +114,6 @@
     left: 298px;
     top: -14px;
     background-color: transparent;
-    color: black;
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
-    box-sizing: border-box;
   }
 
   #wiel3 {
@@ -174,10 +122,6 @@
     left: 240px;
     top: 75px;
     background-color: transparent;
-    color: black;
-    touch-action: none;
-    user-select: none;
-    transform: translate(0px, 0px);
     
   }
 
